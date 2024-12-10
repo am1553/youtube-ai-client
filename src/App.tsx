@@ -78,7 +78,7 @@ function App() {
             placeholder="Enter script to generate YouTube intro"
           ></textarea>
           <button
-            className="h-10 w-10 rounded-full bg-white flex items-center justify-center shadow-md absolute bottom-4 right-4"
+            className="h-10 w-10 rounded-full bg-white flex items-center justify-center shadow-md absolute bottom-16 right-4"
             type="submit"
           >
             <SendIcon style={{ fontSize: "20px" }} />
