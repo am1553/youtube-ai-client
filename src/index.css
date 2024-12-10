@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-800;
+  }
+}
+
+/* Basic scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px; /* Change the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100; /* Track (the part of the scrollbar behind the thumb) color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Handle (the part that you interact with) color */
+  border-radius: 6px; /* Optional: Round the corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Optional: Change color on hover */
+}
